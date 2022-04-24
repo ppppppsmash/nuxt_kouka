@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* ===========================================================
+
+	Title: other.css
+	Created: 2019-9-23
+
+=========================================================== */
+/*
+
+
+		link
+		sitemap
+
+
+=========================================================== */
+/* ===========================================================
+
+	link
+
+=========================================================== */
+/* link-list
+----------------------------------------------------------- */
+ul.link-list {
+	/*border-top: solid 2px #d2d6dc;*/
+	margin-bottom: 15px;
+}
+ul.link-list li {
+	border-bottom: dotted 1px #d8dbdf;
+	padding: 5px 0 5px 20px;
+}
+ul.link-list a {
+	background: url(../../assets/img/global/icon_blank_a.png) 0 50% no-repeat;
+	background-size: 9px 8px;
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+ul.link-list li a {
+}
+ul.link-list li a:link, ul.link-list li a:visited {
+	text-decoration: none;
+	color: #111;
+}
+ul.link-list li a:hover {
+	color: #82b9a4;
+}
+ul.link-list li img {
+	margin: 0 0 0 5px;
+	vertical-align: text-bottom;
+}
+ul.link-list p {
+	padding-left: 20px;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+/* ===========================================================
+
+	sitemap
+
+=========================================================== */
+.sitemap {
+}
+.sitemap h2 {
+	margin: 65px 0 16px;
+}
+.sitemap ul {
+	border-top: solid 2px #d2d6dc;
+	margin: 0 0 40px;
+	padding: 10px 0 0;
+}
+.sitemap li {
+	display: inline-block;
+	margin: 0 20px 10px 0;
+}
+.sitemap li a {
+	background: url(/img/common/ic/ic_arrow_a.png) 0 50% no-repeat;
+	background-size: 3px 5px;
+	padding: 0 10px;
+	display: block;
+}
+.sitemap a:link, .sitemap a:visited {
+	text-decoration: none;
+}
+.sitemap a:hover {
+	text-decoration: underline;
+}

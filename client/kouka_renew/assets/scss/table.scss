@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* ===========================================================
+
+	Title: tablet.css
+	Created: 2021-9-9
+
+=========================================================== */
+/*
+
+	container
+    video
+
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+
+=========================================================== */
+/* ===========================================================
+
+	is-tablet
+
+=========================================================== */
+ .is-tablet {
+     background-color: #002869;
+     font-family: 'Noto Sans JP', sans-serif;
+     font-weight: 400;
+ }
+/* ===========================================================
+
+	container
+
+=========================================================== */
+.container {
+    width: 1578px;
+    margin: 0 auto;
+    padding: 40px 0 0;
+    overflow: hidden;
+}
+.container video {
+    width: 1578px;
+}
+.video {
+    position: relative;
+}
+.video__banner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.video__banner img {
+    vertical-align: baseline;
+}
+
+/* ===========================================================
+
+	stock
+
+=========================================================== */
+.stock {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding-top: 24px;
+    font-size: 26px;
+    text-align: left;
+}
+/* stock__title
+----------------------------------------------------------- */
+.stock__title {
+    flex-shrink: 0;
+}
+.stock__title h1,
+.stock__title h2 {
+    margin-right: 16px;
+}
+.stock__title div {
+    display: flex;
+    align-items: baseline;
+}
+/* stock__date
+----------------------------------------------------------- */
+.stock__date {
+    font-size: 16px;
+}
+/* text--number
+----------------------------------------------------------- */
+.text--number {
+    font-size: 80px;
+    font-weight: 400 !important;
+    color: #fff !important;
+    font-family: 'Lato', sans-serif;
+}
+
+/* stock__contetns
+----------------------------------------------------------- */
+.stock__contetns {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+    width: 100%;
+}
+.stock__contetns dl {
+    display: flex;
+    align-items: baseline;
+    padding-left: 40px;
+}
+.stock__contetns dt {
+}
+.stock__contetns dd {
+    padding-left: 8px;
+}

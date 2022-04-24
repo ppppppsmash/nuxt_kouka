@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* ===========================================================
+
+	Title: feature.css
+	Created: 2021-2-17
+
+=========================================================== */
+/*
+
+	list-style--feature
+
+
+=========================================================== */
+.column {
+  justify-content: center;
+  align-items: center;
+}
+
+/* ===========================================================
+
+	list-style--feature
+
+=========================================================== */
+.list-style--feature li {
+  position: relative;
+  padding-left: 1.5em;
+}
+.list-style--feature li::before {
+  content: "";
+  color: #0054a7;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 0;
+  top: 8px;
+  border-top: solid 5px #37a5ff;
+  border-right: solid 5px #0064d7;
+  border-bottom: solid 5px #0064d7;
+  border-left: solid 5px #37a5ff;
+}
+
+/* ===========================================================
+
+	nttud
+
+=========================================================== */
+.column {
+  justify-content: center;
+  align-items: center;
+}
+.nttud .column .column__cell {
+  flex-basis: auto;
+}
+.nttud .legend-table {
+  width: 91%;
+}
+/* グラフ凡例のテキストが長くなりすぎたため、スマホサイズで調整 */
+@media screen and (max-width: 768px) {
+  .legend-table td.cell-width-1 {
+    width: 70% !important;
+    white-space: normal !important;
+  }
+}
+/* テナント比率の凡例表の横幅をコントロール */
+.nttud .legend-table.margin-auto {
+  margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+  .nttud .legend-table.margin-auto {
+    width: 87%;
+  }
+}
+.nttud .legend-table,
+.nttud .legend-table td {
+  border: none;
+  padding: 2px;
+}
+
+.nttud span.tbl-supple {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: -3px 4px 0 0;
+  color: #dbebc2;
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+.feature_indent_table li {
+  text-indent: -1em;
+  padding-left: 1em;
+}

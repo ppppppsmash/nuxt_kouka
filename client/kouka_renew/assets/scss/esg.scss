@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* ===========================================================
+
+	Title:		feature.css
+	Created:	2021-3-3
+
+=========================================================== */
+/*
+
+
+		sustainability
+
+
+=========================================================== */
+
+
+/* ===========================================================
+
+	sustainability
+
+=========================================================== */
+/* sustainability-list
+----------------------------------------------------------- */
+.sustainability-list {
+	border-top: solid 1px #ccc;
+	padding: 15px 0 0;
+}
+.sustainability-list dt {
+	color: #136941;
+}
+.sustainability-list dd {
+	border-bottom: solid 1px #ccc;
+	margin: 0 0 15px;
+	padding: 0 0 15px;
+}
+/* sustainability-cont
+----------------------------------------------------------- */
+.sustainability-cont {
+	border: solid 1px #ddd;
+	background-color: #f7f7f7;
+	padding: 40px 40px 30px;
+}
+@media screen and (max-width: 768px) {
+/* sustainability-cont
+----------------------------------------------------------- */
+.sustainability-cont {
+	padding: 20px 20px 10px;
+}
+}
+
+/* ===========================================================
+
+	environment
+
+=========================================================== */
+/* environment-img
+----------------------------------------------------------- */
+.environment-img {
+	float: left;
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+}
+/* environment-table
+----------------------------------------------------------- */
+.environment-table {
+	float: right;
+	width: 500px;
+}
+.environment-table .second-col {
+	border-right:1px solid #ccc;
+}
+.environment-table .third-col {
+	padding:0;
+}
+@media screen and (max-width: 768px) {
+/* environment-img
+----------------------------------------------------------- */
+.environment-img {
+	float: none;
+	display: block;
+	width: 100%;
+}
+/* environment-table
+----------------------------------------------------------- */
+.environment-table {
+	float: none;
+	width: auto;
+	margin-bottom: 40px;
+}
+.column-2-left,
+.column-2-right {
+	margin:0 auto;
+	width:100% !important;
+}
+}
+@media screen and (max-width: 480px) {
+.graph-txt-right {
+	float:right;
+	text-align:right;
+	width:100%;
+}
+.nttud .legend-table {
+	width:100% !important;
+}
+#chart3 {
+	width:300px !important;
+}
+}
+
+
+/* ===========================================================
+
+	Initiative, Society
+
+=========================================================== */
+.column-sustaina-left {
+	width: 340px;
+    float: left;
+}
+.column-sustaina-right {
+	width: 270px;
+    float: right;
+}
+
+.external_div_flex {
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+	align-items: center;
+}
+
+.external_div{
+	background-color: #FFFFFF;
+	border-radius: 10px;
+	text-align: center;
+	margin: 0px 10px;
+	margin-bottom: 20px !important;
+	padding: 15px 10px;
+	width: 31%;
+	/* float: left; */
+}
+
+.external_img{
+	padding: 5px 5%;
+}
+
+@media screen and (max-width: 480px) {
+	.external_div{
+		background-color: #FFFFFF;
+		border-radius: 10px;
+		text-align: center;
+		margin: 0px;
+		margin-bottom: 20px !important;
+		padding: 15px 10px;
+		width: 100%;
+		float: left;
+	}
+}
+
+.is-ja .percent--10 {
+	width: 10%!important;
+}
+.is-ja .percent--20 {
+	width: 20%!important;
+}
+.is-ja .percent--30 {
+	width: 30%!important;
+}
+.is-ja .percent--40 {
+	width: 40%!important;
+}
+.is-ja .percent--50 {
+	width: 50%!important;
+}
+/* en */
+.is-en .percent--10 {
+	width: 10%!important;
+}
+.is-en .percent--20 {
+	width: 20%!important;
+}
+.is-en .percent--30 {
+	width: 30%!important;
+}
+.is-en .percent--40 {
+	width: 40%!important;
+}
+.is-en .percent--50 {
+	width: 50%!important;
+}

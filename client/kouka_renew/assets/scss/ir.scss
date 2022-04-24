@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* ===========================================================
+
+	Title:		ir.css
+	Created:	2020-03-03
+
+=========================================================== */
+/*
+
+	library
+	distribute
+	faq
+
+
+=========================================================== */
+/* ===========================================================
+
+	library
+
+=========================================================== */
+.library-table {
+}
+.library-table th {
+}
+.library-table td {
+	position: relative;
+	text-align: center;
+}
+.library-table td .icon-l {
+	display: block;
+	margin: 0 auto 5px;
+}
+.library-table img {
+}
+
+/* link-button */
+.link-button-a {
+	line-height: 45px;
+	padding: 0 60px;
+	display: inline-block;
+	color: #111 !important;
+	font-size: 13px;
+	text-align: center;
+	border: solid 1px #ccc;
+}
+.link-button-a:hover {
+	background: #002869;
+	border: solid 1px #002869;
+	text-decoration: none;
+	color: #fff !important;
+}
+.link-button-a .blank {
+  display: initial;
+}
+@media screen and (max-width: 768px) {
+.link-button-a {
+	height: inherit;
+	line-height: 1.6;
+	padding: 10px;
+	display: inline-block;
+}
+}
+
+/* popup-open
+----------------------------------------------------------- */
+.library-table td .popup-open {
+	display: block;
+}
+
+/* popup-area
+----------------------------------------------------------- */
+.library-table td .popup-area {
+	display: none;
+	position: absolute;
+	top: -50px;
+	margin: 0 0 0 -200px;
+	z-index: 100;
+	padding: 20px 20px 5px;
+	width: 500px;
+	background: #fff;
+	border: solid 3px #ddd;
+}
+@media screen and (max-width: 768px) {
+	.library-table td .popup-area {
+		display: none;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		margin: -180px 0 0 -140px;
+		width: 280px;
+	}
+}
+.popup-area h5 {
+	color: #002869;
+	margin: 0 0 10px;
+}
+.popup-area p {
+	margin-bottom: 10px;
+}
+
+/* popup-close
+----------------------------------------------------------- */
+.popup-close {
+	display: inline-block;
+	position: relative;
+	padding: 4px 24px 4px 38px;
+	text-align: center;
+	border: solid 1px #ddd;
+	cursor: pointer;
+}
+.popup-close span {
+	display: block;
+	position: absolute;
+	top: 4px;
+	left: 14px;
+	width: 12px;
+}
+.popup-close:hover {
+	background: #002869;
+	border: solid 1px #002869;
+	color: #fff !important;
+}
+
+/* ===========================================================
+
+	distribute
+
+=========================================================== */
+dl.distribute-actual, dl.distribute-forecast {
+	border-radius: 10px;
+	background: #fff;
+	border: solid 1px #ddd;
+	margin: 0 0 30px;
+	padding: 20px 30px;
+	display: flex;
+	justify-content: center;
+	align-items: baseline;
+}
+dl.distribute-actual dt, dl.distribute-forecast dt {
+	padding: 0 30px 0 0;
+	font-size: 20px
+}
+dl.distribute-actual dd em, dl.distribute-forecast dd em {
+	margin: 0 5px 0 10px;
+}
+dl.distribute-actual dd em {
+	color: #002869;
+	font-size: 38px;
+}
+dl.distribute-forecast dd em {
+	color: #82c3ff;
+	font-size: 38px;
+}
+
+@media screen and (max-width: 768px) {
+dl.distribute-actual, dl.distribute-forecast {
+	display: block;
+	padding: 15px 10px;
+}
+dl.distribute-actual dt, dl.distribute-forecast dt {
+	margin: 0 0 0px;
+	padding: 0;
+	text-align: center;
+}
+dl.distribute-actual dd, dl.distribute-forecast dd {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+dl.distribute-actual dd em {
+	font-size: 34px;
+}
+dl.distribute-forecast dd em {
+	font-size: 34px;
+}
+}
+
+/* ===========================================================
+
+	faq
+
+=========================================================== */
+dl.qa {
+	margin: 0;
+	padding: 0;
+}
+dl.qa dt {
+	clear: both;
+	margin: 0 0 10px;
+	padding: 0 0 0 35px;
+}
+dl.qa dt span {
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	border: solid 1px #929292;
+	float: right;
+	text-align: center;
+	position: relative;
+}
+dl.qa dd {
+	clear: both;
+	margin: 0 0 30px;
+	padding: 0 0 0 35px;
+}
+dl.qa dd a {
+	margin: 10px 0 0;
+	display: block;
+}
+dl.qa em {
+	background: #002869;
+	margin: 0 0 0 -34px;
+	color: #fff;
+	font-weight: normal;
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	border-radius: 12px;
+	text-align: center;
+	display: block;
+	float: left;
+	font-style: normal;
+}
+dl.qa dd em {
+	background-color: #82c3ff;
+}
+.icon-plus:before, .icon-plus:after, .icon-minus:before {
+	position: absolute;
+	top: 10px;
+	left: 50%;
+	content: '';
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	border-top: 2px solid #929292;
+	transform: translateX(-50%);
+}
+.icon-plus:after {
+	top: 4px;
+	left: -2px;
+	transform: rotate(90deg);
+}
+.icon-minus:before {
+}

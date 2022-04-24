@@ -1,0 +1,58 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/app/kouka_renew/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_3652be0e"
+  },
+  {
+    "name": "business",
+    "path": "/business",
+    "component": "/app/kouka_renew/pages/business.vue",
+    "chunkName": "pages/business",
+    "_name": "_080fc884"
+  },
+  {
+    "name": "maintenance",
+    "path": "/maintenance",
+    "component": "/app/kouka_renew/pages/maintenance.vue",
+    "chunkName": "pages/maintenance",
+    "_name": "_d8f42302"
+  },
+  {
+    "name": "organization",
+    "path": "/organization",
+    "component": "/app/kouka_renew/pages/organization.vue",
+    "chunkName": "pages/organization",
+    "_name": "_11870e77"
+  },
+  {
+    "name": "product",
+    "path": "/product",
+    "component": "/app/kouka_renew/pages/product.vue",
+    "chunkName": "pages/product",
+    "_name": "_9e52774a"
+  },
+  {
+    "name": "product_detail",
+    "path": "/product_detail",
+    "component": "/app/kouka_renew/pages/product_detail.vue",
+    "chunkName": "pages/product_detail",
+    "_name": "_0ec88ce5"
+  },
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "/app/kouka_renew/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_14569415"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/app/kouka_renew/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_048e7bbe"
+  }
+]

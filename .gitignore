@@ -1,0 +1,7 @@
+/bk
+client/kouka_renew/node_modules
+**/.DS_Store
+.DS_Store
+**/**/dist/
+**/**/.env
+client/kouka_renew/static/video

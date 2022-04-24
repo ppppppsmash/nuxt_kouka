@@ -1,0 +1,44 @@
+{
+  "Footer": {
+    "description": "Auto imported from /components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from /components/Footer.vue"
+  },
+  "Header": {
+    "description": "Auto imported from /components/Header.vue"
+  },
+  "LazyHeader": {
+    "description": "Auto imported from /components/Header.vue"
+  },
+  "NuxtLogo": {
+    "description": "Auto imported from /components/NuxtLogo.vue"
+  },
+  "LazyNuxtLogo": {
+    "description": "Auto imported from /components/NuxtLogo.vue"
+  },
+  "SideNav": {
+    "description": "Auto imported from /components/SideNav.vue"
+  },
+  "LazySideNav": {
+    "description": "Auto imported from /components/SideNav.vue"
+  },
+  "SideNavToggle": {
+    "description": "Auto imported from /components/SideNavToggle.vue"
+  },
+  "LazySideNavToggle": {
+    "description": "Auto imported from /components/SideNavToggle.vue"
+  },
+  "Tutorial": {
+    "description": "Auto imported from /components/Tutorial.vue"
+  },
+  "LazyTutorial": {
+    "description": "Auto imported from /components/Tutorial.vue"
+  },
+  "VuetifyLogo": {
+    "description": "Auto imported from /components/VuetifyLogo.vue"
+  },
+  "LazyVuetifyLogo": {
+    "description": "Auto imported from /components/VuetifyLogo.vue"
+  }
+}

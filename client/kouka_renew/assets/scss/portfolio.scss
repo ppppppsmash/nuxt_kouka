@@ -1,0 +1,538 @@
+@charset "utf-8";
+/* ===========================================================
+
+	Title: portfolio.css
+	Created: 2020-10-26
+
+=========================================================== */
+/* ===========================================================
+
+	portfolio-category
+	investment-policy
+	list
+	infoWindow
+	detail
+	map
+	data
+	movie
+
+=========================================================== */
+/* ===========================================================
+
+	portfolio-type
+
+=========================================================== */
+.portfolio-area-1, .portfolio-area-2, .portfolio-area-3, tr.portfolio-area-1 td.area, tr.portfolio-area-2 td.area, tr.portfolio-area-3 td.area {
+	color: #fff;
+}
+tr.portfolio-area-1 td, tr.portfolio-area-2 td, tr.portfolio-area-3 td {
+	color: #111;
+}
+.portfolio-area-1, tr.portfolio-area-1 td.area {
+	color: #0066b3;
+}
+.portfolio-area-2, tr.portfolio-area-2 td.area {
+	color: #f5821e;
+}
+.portfolio-area-3, tr.portfolio-area-3 td.area {
+	color: #999;
+}
+
+h2.portfolio-area-1,
+p.portfolio-area-1 {
+	color: #0066b3;
+	background-color: #dfe6f4;
+	border-bottom-color:#0066b3;
+}
+h2.portfolio-area-2,
+p.portfolio-area-2 {
+	color: #f5821e;
+	background-color: #fceddf;
+	border-bottom-color:#f5821e;
+}
+h2.portfolio-area-3,
+p.portfolio-area-3 {
+	color: #999;
+	background-color: #eeeeee;
+	border-bottom-color:#999;
+}
+
+.portfolio-area-1 strong,
+.portfolio-data th.portfolio-area-1 {background-color: #0066b3;}
+.portfolio-area-2 strong,
+.portfolio-data th.portfolio-area-2 {background-color: #f5821e;}
+.portfolio-area-3 strong,
+.portfolio-data th.portfolio-area-3 {background-color: #999;}
+
+tr.portfolio-area-1 td {background-color: #dfe6f4;}
+tr.portfolio-area-2 td {background-color: #fceddf;}
+tr.portfolio-area-3 td {background-color: #eeeeee;}
+
+
+
+/* ===========================================================
+
+	select-search
+
+=========================================================== */
+.select-search {
+	border: solid 1px #ccc;
+	background-color: #fff;
+	margin: 0 0 20px;
+	border-radius: 10px;
+	padding: 20px;
+}
+.select-search select {
+}
+.select-search .search-btn {
+	float: left;
+	margin: 0 10px 0 0;
+}
+.select-search input, .select-search button, .select-search select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.select-search input, .select-search button, .select-search select {
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+/*firefox*/
+.select-search select {
+	-moz-appearance: none;
+	text-indent: 0.01px;
+	text-overflow: '';
+}
+/*IE10*/
+.select-search select::-ms-expand {
+ display: none;
+}
+.select-search .select-warp {
+	position: relative;
+	float: left;
+	overflow: hidden; /* 伸ばした分を隠す */
+	border: solid 1px #ccc;
+	margin: 0 10px 0 0;
+}
+.select-search .select-warp::after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    margin: auto;
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-bottom: 1px solid #002869;
+    border-right: 1px solid #002869;
+    transform: translate(0, -50%) rotate(45deg);
+}
+.select-search .select-warp > select {
+	width: 130%; /* UI分を伸ばす */
+}
+.select-search select {
+	height: 33px;
+	line-height: 33px;
+	/*padding: 0 100px 0 15px;*/
+	padding: 0 80px 0 15px;
+	font-size: 13px;
+}
+.select-search select:hover {
+	cursor: pointer;
+}
+.select-search input[type="submit"], .select-search input[type="button"] {
+	background: #e0e0e0;
+	height: 35px;
+	line-height: 35px;
+	padding: 0 15px;
+	font-size: 13px;
+}
+.select-search input[type="submit"]:hover, .select-search input[type="button"]:hover {
+	background: #82b9a4;
+	color: #fff;
+	cursor: pointer;
+}
+.select-search #purpose li span {
+	display: inline-block;
+	height: 32px;
+	vertical-align: top;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+@media screen and (max-width: 768px) {
+.select-search .select-warp {
+	float: none;
+	margin: 0 0 10px 0;
+}
+}
+
+/* ===========================================================
+
+	portfolio-list
+
+=========================================================== */
+table.portfolio-list {
+}
+table.portfolio-list th {
+	text-align: center;
+	white-space: nowrap;
+}
+table.portfolio-list td {
+	text-align: right;
+}
+.sort-btn th {
+	background: #fff !important;
+	padding: 5px 0 !important;
+	line-height: 1;
+	white-space: nowrap !important;
+}
+.sort-up, .sort-down {
+	position: relative;
+    display: inline-block;
+    text-indent: -9999px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: #002869;
+    color: #fff;
+    margin: 0 2px;
+    padding: 4px 8px;
+    transition: all 0.5s;
+}
+.sort-up::after, .sort-down::after {
+    position: absolute;
+	content: " ";
+	top: 50%;
+	right: 50%;
+	width: 8px;
+	height: 8px;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(45deg);
+}
+.sort-up::after {
+	margin: -2px -4px 0 0;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+.sort-down::after {
+	margin: -5px -4px 0 0;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+.sort-up:hover, .sort-down:hover {
+	background-color: #d7ebff;
+}
+
+
+/* ===========================================================
+
+	portfolio-title
+
+=========================================================== */
+h2.portfolio-title {
+	font-size: 20px;
+	line-height: 1.4;
+	height: auto;
+	margin: 0 0 30px !important;
+	padding: 20px 20px 20px 130px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	position: relative;
+}
+h2.portfolio-title strong {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	line-height: 30px;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	font-size: 13px;
+	display: inline-block;
+	color: #fff;
+	font-weight: normal;
+}
+@media screen and (max-width: 768px) {
+h2.portfolio-title {
+	position: relative;
+	padding: 40px 10px 10px 10px;
+	height: auto;
+	line-height: 1.4;
+}
+h2.portfolio-title strong {
+	line-height: 25px;
+	height: 25px;
+	font-size: 12px;
+}
+}
+
+/* ===========================================================
+
+	pagenation
+
+=========================================================== */
+ul.pagenation {
+	clear: both;
+	margin: 0 0 30px;
+	background-color: #f9f9f9;
+}
+ul.pagenation li a {
+	position: relative;
+	margin: 0;
+	background: #002869;
+	color: #fff;
+}
+ul.pagenation li.next a {
+	float: right;
+	padding: 10px 40px 10px 30px;
+}
+ul.pagenation li.prev a {
+	float: left;
+	padding: 10px 30px 10px 40px;
+}
+ul.pagenation li a:link, ul.pagenation li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+ul.pagenation li.next a:after, ul.pagenation li.prev a:before {
+	position: absolute;
+	content: " ";
+	top: 50%;
+	width: 10px;
+	height: 10px;
+	transform: translate(0, -50%) rotate(45deg);
+}
+ul.pagenation li.next a:hover, ul.pagenation li.prev a:hover {
+	background-color: #0064D7;
+}
+ul.pagenation li.next a:after {
+	right: 20px;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #ffffff;
+}
+ul.pagenation li.prev a:before {
+	left: 20px;
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+}
+
+
+/* ===========================================================
+
+	detail
+
+=========================================================== */
+/* bxslider-detail-warp
+----------------------------------------------------------- */
+.bxslider-detail-warp {
+	float: left;
+	width: 40%;
+	margin: 0 0 30px;
+}
+@media screen and (max-width: 768px) {
+	.bxslider-detail-warp {
+		float: none;
+		width: 100%;
+	}
+}
+/* bx-wrapper
+----------------------------------------------------------- */
+.bx-wrapper {
+	margin: 0 0 10px;
+}
+/* bxslider-detail
+----------------------------------------------------------- */
+.bxslider-detail {
+	height: 420px;
+}
+.bxslider-detail li {
+	text-align: center;
+	height: 420px;
+	margin: 0;
+	background-color: #EDF0F4;
+}
+.bxslider-detail li span {
+	text-align: center;
+	height: 420px;
+	vertical-align: middle;
+	line-height: 420px;
+	vertical-align: middle;
+	display: table-cell;
+	width:350px;
+}
+.bxslider-detail li img {
+	margin: 0 auto;
+	width: auto;
+	vertical-align: middle;
+}
+/* bx-pager
+----------------------------------------------------------- */
+#bx-pager {
+	margin: 0 0 0 0;
+}
+#bx-pager li {
+	float: left;
+	display: inline-block;
+	margin: 0 10px 10px 0;
+	padding: 0;
+	text-align: center;
+	line-height: 1;
+	overflow: hidden;
+	width: 62px;
+	height: 62px;
+}
+#bx-pager li:last-child {
+	margin: 0;
+}
+#bx-pager li a {
+	margin: 0;
+	width: 62px;
+	height: 62px;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	cursor: pointer;
+}
+#bx-pager li a img {
+/*height: 60px;
+	width: auto;*/
+}
+#bx-pager li a:link, #portfolio #bx-pager li a:visited {
+}
+#bx-pager li a:hover {
+}
+/*portfolio-table-warp
+----------------------------------------------------------- */
+.portfolio-table-warp {
+	float: right;
+	width: 55%;
+}
+.portfolio-table-warp table {
+	margin: 0;
+}
+@media screen and (max-width: 768px) {
+	.portfolio-table-warp, .portfolio-table-warp table {
+		float: none;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.portfolio-table-warp table th {
+		width: auto;
+	}
+}
+.portfolio-table-warp table td {
+	vertical-align: middle;
+}
+.portfolio-table-warp table.type-table th, .portfolio-table-warp table.type-table td {
+	text-align: center;
+	width: 20%;
+}
+/*map_canvas
+----------------------------------------------------------- */
+#map_canvas {
+	clear: both;
+	width: 100%;
+	height: 500px;
+	margin: 0 0px 40px;
+}
+@media screen and (max-width: 768px) {
+	#map_canvas {
+		width: 100%;
+		height: 360px;
+	}
+}
+/*map
+----------------------------------------------------------- */
+#map {
+	clear: both;
+	margin: 0 0 10px;
+	height: 720px;
+	border: solid 1px #e6eaed;
+}
+@media screen and (max-width: 768px) {
+	#map {
+		width: 100%;
+		height: 470px;
+	}
+}
+/*marker-list
+----------------------------------------------------------- */
+#marker-list {
+	margin: 0 0 20px 0;
+	overflow: auto;
+	height: 145px;
+	background-color: #f1f0ed;
+	border: 1px solid #cccccc;
+	padding: 5px;
+}
+#marker-list li {
+	line-height: 26px;
+	vertical-align: middle;
+	float: left;
+	width: 300px;
+	margin: 0 15px 5px 0;
+}
+#marker-list li img {
+	vertical-align: middle;
+}
+/* ===========================================================
+
+	legend
+
+=========================================================== */
+.legend dt {
+	float: left;
+	margin: 0 5px 10px 0;
+}
+.legend dd {
+	float: left;
+	margin: 0 25px 10px 0;
+}
+
+/* ===========================================================
+
+	portfolio-data
+
+=========================================================== */
+.portfolio-data th,
+.portfolio-data td {
+	text-align: center;
+}
+.portfolio-data th {
+	color: #fff;
+}
+
+/* ===========================================================
+
+	highlight
+
+=========================================================== */
+table tr.highlight td {
+	background-color: #d7ebff;
+}
+
+
+/* ===========================================================
+
+	tenant
+
+=========================================================== */
+.tenant span.tbl-supple {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: -4px 4px 0 0;
+	color: #d7ebff;
+	font-size: 24px;
+	vertical-align: middle;
+	background-color: #d7ebff;
+	border: solid 1px #ddd;
+}
