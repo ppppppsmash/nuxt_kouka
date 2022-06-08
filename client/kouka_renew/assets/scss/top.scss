@@ -273,8 +273,8 @@ main.contents-style h2 strong {
         padding: 240px 16px 144px;
     }
     .headline .section-inner {
-        display: flex;
-        justify-content: space-between;
+        display: block;
+        // justify-content: space-between;
     }
 }
 
@@ -304,6 +304,7 @@ main.contents-style h2 strong {
 }
 @media screen and (min-width: 1200px) {
     .headline__link {
+        width: 65%;
         padding-left: 32px;
     }
 }
@@ -312,7 +313,7 @@ main.contents-style h2 strong {
 ----------------------------------------------------------- */
 .headline__read {
     border-radius: 8px;
-    background: #fff;
+    background-color: rgba(252, 255, 255, .6);
     padding: 16px;
     margin-bottom: 64px;
 }

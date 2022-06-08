@@ -19,7 +19,6 @@
               <!--message__text-->
               <div class="message__signature">
                 <figure>
-                  <img src="/img/charactor/" alt="執行役員画像" />
                   <figcaption>恒佳株式会社<br>取締役<br><em>段　鳳艶</em></figcaption></figure>
               </div>
               <!--message__signature-->

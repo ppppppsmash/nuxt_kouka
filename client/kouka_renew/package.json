@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "cross-env NODE_ENV=dev BASE_URL=http://localhost:3000 nuxt",
+    "dev": "cross-env NODE_ENV=dev BASE_URL=http://localhost:4500 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "cross-env NODE_ENV=prod BASE_URL=http://kou-ka.com nuxt generate"

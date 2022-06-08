@@ -5,3 +5,4 @@ client/kouka_renew/node_modules
 **/**/dist/
 **/**/.env
 client/kouka_renew/static/video
+client/kouka_renew/.nuxt/

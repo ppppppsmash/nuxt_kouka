@@ -13,13 +13,6 @@
         <article>
           <div class="headline">
           <div class="section-inner">
-            <div class="headline__banner">
-              <ul class="link-button link-button-parade--center">
-                <li><a href="https://www.amazon.co.jp/s?k=%E6%81%92%E4%BD%B3&ref=bl_dp_s_web_0" target="_blank">恒佳株式会社直営店</a></li>
-                <li><a href="https://item.rakuten.co.jp/paluck/buttercoffee/" target="_blank">楽天代理販売店</a></li>
-              </ul>
-            </div>
-            <!--headline__banner-->
             <div class="headline__link">
               <div class="headline__read">
                 <p>恒佳株式会社は伊段シリーズは、日本最先端の生産設備、自動化された生産ライン、無菌環境、高品質な品質管理により、最も厳しく、健康的な日本の健康食品を世界にお届けしております。</p>
@@ -31,6 +24,13 @@
               </ul> -->
             </div>
             <!--headline__link-->
+            <div class="headline__banner">
+              <ul class="link-button link-button-parade--center">
+                <li><a href="https://www.amazon.co.jp/s?k=%E6%81%92%E4%BD%B3&ref=bl_dp_s_web_0" target="_blank">恒佳株式会社直営店</a></li>
+                <li><a href="https://item.rakuten.co.jp/paluck/buttercoffee/" target="_blank">楽天代理販売店</a></li>
+              </ul>
+            </div>
+            <!--headline__banner-->
           </div>
           <!--section-inner-->
         </div>
