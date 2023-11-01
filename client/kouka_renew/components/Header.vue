@@ -21,9 +21,9 @@
                 onclick="setActiveStyleSheet('large'); return false;">大</a></li>
           </ul>
         </div><!-- global-sub-navigation__font-size -->
-        <ul class="global-sub-navigation__language">
+        <!-- <ul class="global-sub-navigation__language">
           <li><a href="/" title="Chinese">Chinese（仮）</a></li>
-        </ul>
+        </ul> -->
       </div>
       <!-- global-menu__sub-navigation -->
       <!-- ハンバーガー(768px以上で非表示) -->

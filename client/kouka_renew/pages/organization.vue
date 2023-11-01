@@ -16,10 +16,6 @@
                   <td>段　鳳艶</td>
                 </tr>
                 <tr>
-                  <th scope="row" >商品開発部指導</th>
-                  <td>丸山　俊史</td>
-                </tr>
-                <tr>
                   <th scope="row" >運営部</th>
                   <td>カツ　シキ</td>
                 </tr>

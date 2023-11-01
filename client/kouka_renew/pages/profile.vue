@@ -53,7 +53,7 @@
           </div>
 
 
-          <h3><span>MAP</span></h3>
+          <!-- <h3><span>MAP</span></h3>
           <GmapMap
           :center="{lat:35.7334623, lng:139.7084551}"
           :zoom="17"
@@ -67,7 +67,7 @@
           :clickable="true"
           :draggable="true"
           @click="center=m.position" />
-          </GmapMap>
+          </GmapMap> -->
         </div>
         <!--contents-style-->
       </div>
